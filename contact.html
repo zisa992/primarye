@@ -50,7 +50,7 @@
         <div class="col-lg-8">
           <div class="card p-5 shadow">
 
-            <!-- FormSubmit - CHANGE THIS EMAIL -->
+            <!-- FormSubmit - Updated with correct redirect URL -->
             <form action="https://formsubmit.co/Primarye.info@gmail.com" method="POST">
               
               <div class="row">
@@ -73,7 +73,10 @@
               <!-- Hidden fields -->
               <input type="hidden" name="_subject" value="New Contact Message from PrimaryE Website">
               <input type="hidden" name="_captcha" value="false">
-              <input type="hidden" name="_next" value="thankyou.html">
+              
+              <!-- IMPORTANT: Full URL to thankyou.html - Replace with your actual domain if different -->
+              <input type="hidden" name="_next" value="https://primaryehealth.com/thankyou.html">
+              
               <input type="hidden" name="_autoresponse" value="Thank you for contacting PrimaryE. We have received your message and will respond as soon as possible.">
 
               <button type="submit" class="btn btn-success px-5 py-3">Send Message</button>
@@ -107,7 +110,7 @@
   </footer>
 
   <!-- Floating WhatsApp -->
-  <a href="https://wa.me/2349139106838" target="_blank" class="whatsapp-float">
+  <a href="https://wa.me/2348038451278" target="_blank" class="whatsapp-float">
     <i class="fab fa-whatsapp"></i>
     <span class="whatsapp-text">Chat on WhatsApp</span>
   </a>
