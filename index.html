@@ -36,7 +36,7 @@
     </div>
   </nav>
 
-  <!-- Blue Hero (Kept as you like) -->
+  <!-- Blue Hero -->
   <section class="hero text-center d-flex align-items-center">
     <div class="container">
       <img src="images/hero-app-mockup.png" alt="" 
@@ -45,9 +45,7 @@
       <h1 class="fw-bold">Your Medication & Health Companion</h1>
       <p class="lead mt-3">Smart reminders • Drug interaction alerts • Licensed pharmacist support</p>
       
-      <button class="btn btn-success btn-lg mt-4 px-5 py-3" data-bs-toggle="modal" data-bs-target="#comingSoonModal">
-        Get Early Access
-      </button>
+      <!-- Get Early Access button removed -->
     </div>
   </section>
 
@@ -152,26 +150,6 @@
     </div>
   </section>
 
-  <!-- Coming Soon Modal -->
-  <div class="modal fade" id="comingSoonModal" tabindex="-1">
-    <div class="modal-dialog modal-dialog-centered">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title">App Coming Soon 🚀</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-        </div>
-        <div class="modal-body">
-          <p>Join the waitlist to be notified when the app is ready.</p>
-          <form id="waitlistForm">
-            <input type="text" class="form-control mb-3" placeholder="Your Name" required>
-            <input type="email" class="form-control mb-3" placeholder="Email Address" required>
-            <button type="submit" class="btn btn-success w-100 py-3">Join Waitlist</button>
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
-
   <!-- Footer -->
   <footer class="py-5">
     <div class="container text-center">
@@ -180,19 +158,11 @@
   </footer>
 
   <!-- Floating WhatsApp -->
-  <a href="https://wa.me/2348038451278" target="_blank" class="whatsapp-float" title="Chat with us on WhatsApp">
+  <a href="https://wa.me/2349139106838" target="_blank" class="whatsapp-float" title="Chat with us on WhatsApp">
     <i class="fab fa-whatsapp"></i>
     <span class="whatsapp-text">Chat on WhatsApp</span>
   </a>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-  <script>
-    document.getElementById('waitlistForm').addEventListener('submit', function(e) {
-      e.preventDefault();
-      alert("✅ Thank you! You've been added to the waitlist.");
-      bootstrap.Modal.getInstance(document.getElementById('comingSoonModal')).hide();
-      this.reset();
-    });
-  </script>
 </body>
 </html>
